@@ -134,7 +134,7 @@ Servers names following a pattern can be bulk added to a group. There are two pa
 Examples:
 
 - `server1{a,b,c}`: Adds `server1a`, `server1b`, `server1c`
-- `server[001-15]`: Adds `server001`, `server002`, ..., `server015`
+- `server[001-015]`: Adds `server001`, `server002`, ..., `server015`
 - `{dca,dcb}rack[1-5]sql[1-2]`: Adds `dcarack1sql1`, `dcarack1sql2`, `dcarack2sql1`, ..., `dcarack5sql2`, `dcbrack1sql1`, ... `dcbrack5sql2`
 
 ### Importing Servers from a Text File
